@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C++ Build & Binaries
+build/
+bin/
+obj/
+*.exe
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output Logs & Data
+*.log
+vibration_report*.csv

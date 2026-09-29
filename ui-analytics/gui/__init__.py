@@ -1,0 +1,1 @@
+# VibrationGuard GUI Components
