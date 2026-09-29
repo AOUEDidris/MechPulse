@@ -1,10 +1,15 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
 
-# C++ Build & Binaries
+# C++ Build
 build/
 bin/
 obj/
@@ -19,28 +24,30 @@ obj/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-Makefile
 
-# Environments
+# Virtual Environments
 .env
 .venv
 env/
 venv/
-ENV/
 
-# IDE & Editors
+# IDE
 .vscode/
 .idea/
 *.suo
 *.user
-*.sublime-project
-*.sublime-workspace
+*.sublime-*
 
-# Operating System Files
+# OS
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Output Logs & Data
+# Logs & Reports
 *.log
 vibration_report*.csv
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
