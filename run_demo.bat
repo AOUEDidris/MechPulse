@@ -1,14 +1,9 @@
 @echo off
-title MechPulse - Industrial Vibration Monitoring
-echo.
-echo    __  ___          __    ____        __
-echo   /  |/  /__  _____/ /_  / __ \__  __/ /________
-echo  / /|_/ / _ \/ ___/ __ \/ /_/ / / / / / ___/ _ \
-echo / /  / /  __/ /__/ / / / ____/ /_/ / (__  )  __/
-echo/_/  /_/\___/\___/_/ /_/_/    \__,_/_/____/\___/
-echo.
-echo   Real-Time Vibration Monitoring and Predictive Maintenance
+title MechPulse - Industrial Predictive Maintenance
+echo ========================================================
+echo   Starting MechPulse - Real-Time Vibration Monitor
 echo   ISO 10816-3 Compliant | Industry 4.0
+echo ========================================================
 echo.
-python -m mechpulse --simulate
+python frontend\app.py --simulate
 pause

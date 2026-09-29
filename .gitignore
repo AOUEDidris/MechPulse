@@ -7,12 +7,10 @@ __pycache__/
 dist/
 build/
 *.egg
-.eggs/
 
 # C++ Build
 build/
 bin/
-obj/
 *.exe
 *.obj
 *.o
@@ -20,34 +18,21 @@ obj/
 *.a
 *.dll
 *.so
-*.dylib
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-
-# Virtual Environments
-.env
-.venv
-env/
-venv/
 
 # IDE
 .vscode/
 .idea/
 *.suo
 *.user
-*.sublime-*
 
 # OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Logs & Reports
+# Reports
 *.log
-vibration_report*.csv
-.coverage
-htmlcov/
+*.csv
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
